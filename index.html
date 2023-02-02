@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="yaro">
+    <meta name="description" content="Responsive Web Clone Project">
+    <meta name="keywords" content="반응형사이트, 웹퍼블리싱">
+    <title>Responsive-Web</title>
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="image/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="image/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- html5shiv for IE6-8 -->
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.min.js"></script>
+        <script type="text/javascript">
+            alert("현재 당신이 보는 브라우저는 지원하지 않습니다. 최신 브라우저로 업데이트해주세요!");
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <ul class="builder_info">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Webstandard</a></li>
+            </ul>
+            <h1>Responsive Web Clone Project</h1>
+            <a class="builder_link" href="#">yaroway.com</a>
+            <ul class="builder_works">
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">twiter</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav id="gnb" class="closed">
+        <div class="wrap clearfix">
+            <h2 class="ir">Main Navigation</h2>
+            <section>
+                <h3>HTML Reference</h3>
+                <ol class="cleafix">
+                    <li><a href="#">HTML 태그(Tag)</a></li>
+                    <li><a href="#">블록 요소/인라인 요소</a></li>
+                    <li><a href="#">DTD 선언</a></li>
+                    <li><a href="#">언어 속성 설정</a></li>
+                    <li><a href="#">HTML &lt;title&gt;</a></li>
+                    <li><a href="#">HTML &lt;meta&gt;</a></li>
+                    <li><a href="#">특수문자</a></li>
+                    <li><a href="#">하이퍼 링크</a></li>
+                    <li><a href="#">HTML &lt;style&gt;</a></li>
+                    <li><a href="#">HTML &lt;html&gt;</a></li>
+                    <li><a href="#">HTML &lt;head&gt;</a></li>
+                    <li><a href="#">HTML &lt;div&gt;</a></li>
+                    <li><a href="#">HTML &lt;colgroup&gt;</a></li>
+                    <li><a href="#">HTML &lt;caption&gt;</a></li>
+                </ol>
+            </section>
+            <section>
+                <h3>CSS Reference</h3>
+                <ol class="cleafix">
+                    <li><a href="#">CSS 선택자</a></li>
+                    <li><a href="#">CSS 단위</a></li>
+                    <li><a href="#">CSS 색상</a></li>
+                    <li><a href="#">CSS 선언 방법</a></li>
+                    <li><a href="#">상대주소와 절대주소</a></li>
+                    <li><a href="#">CSS float</a></li>
+                    <li><a href="#">이미지 표현 방법</a></li>
+                    <li><a href="#">이미지 스프라이트</a></li>
+                    <li><a href="#">IR 효과</a></li>
+                    <li><a href="#">이미지 최적화</a></li>
+                    <li><a href="#">background-color</a></li>
+                    <li><a href="#">border-style</a></li>
+                    <li><a href="#">font-size</a></li>
+                    <li><a href="#">text-align</a></li>
+                </ol>
+            </section>
+            <section>
+                <h3>Responsive</h3>
+                <ol class="cleafix">
+                    <li><a href="#">웹 표준</a></li>
+                    <li><a href="#">웹 접근성</a></li>
+                    <li><a href="#">W3C</a></li>
+                    <li><a href="#">웹 접근성 연구소</a></li>
+                    <li><a href="#">네이버 널리</a></li>
+                    <li><a href="#">다음 다룸</a></li>
+                    <li><a href="#">Webstandard</a></li>
+                </ol>
+            </section>
+        </div>
+    </nav>
+    <article id="sub_title">
+        <div class="wrap">
+            <h2 class="ir">Sub Title</h2>
+            <span>"나는 퍼블리셔다."</span>
+            <div id="gnb_btn"></div>
+        </div>
+    </article>
+    <main>
+        <div class="wrap clearfix">
+            <div id="left_box">
+                <section id="menu" class="sec_wrap top">
+                    <div class="sec_title">
+                        <h2 class="title">Menu</h2>
+                        <span class="desc">Box-shadow를 이용한 마우스 오버 효과 메뉴입니다.</span>
+                    </div>
+                    <ul>
+                        <li><a href="#">Cafe</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Refernce</a></li>
+                        <li><a href="#">CSS3</a></li>
+                        <li><a href="#">HTML5</a></li>
+                    </ul>
+                </section>
+                <section id="notice" class="sec_wrap">
+                    <div class="sec_title">
+                        <h2 class="title">Notice</h2>
+                        <span class="desc">게시판 영역의 한줄 효과와 두줄 효과 게시판입니다.</span>
+                    </div>
+                    <section class="sub_notice">
+                        <h3>Notice1</h3>
+                        <a href="#" title="더보기">More</a>
+                        <ul>
+                            <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
+                        </ul>
+                    </section>
+                    <section class="sub_notice twoline">
+                        <h3>Notice2</h3>
+                        <a href="#" title="더보기">More</a>
+                        <ul>
+                            <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                            <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="blogs" class="sec_wrap">
+                    <div class="sec_title">
+                        <h2 class="title">Blog</h2>
+                        <span class="desc">해상도에 따라 이미지를 다르게 표현하는 방법입니다.</span>
+                    </div>
+                    <div class="blog_intro">
+                        <figure>
+                            <img src="image/blog4_@3.jpg" alt="blog1-thumbnail">
+                            <figcaption>
+                                반응형 웹 사이트 이미지 글입니다.반응형 웹 사이트 이미지 글입니다.반응형 웹 사이트 이미지 글입니다.반응형 웹 사이트 이미지 글입니다.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="blog_intro">
+                        <figure>
+                            <img src="image/blog3_@3.jpg" alt="blog2-thumbnail">
+                            <figcaption>
+                                반응형 웹 사이트 이미지 글입니다.반응형 웹 사이트 이미지 글입니다.반응형 웹 사이트 이미지 글입니다.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+            <div id="center_box">
+                <section id="" class="sec_wrap top">
+                    <div class="sec_title">
+                        <h2 class="title">Slick Slider</h2>
+                        <span class="desc">게시판 영역의 한줄 효과와 두줄 효과 게시판입니다.</span>
+                    </div>
+                </section>
+                <section id="filter" class="sec_wrap">
+                    <div class="sec_title">
+                        <h2 class="title">Filter Effects</h2>
+                        <span class="desc">CSS3에서는 Background-blend-mode, mix-blend-mode, filter와 같이 포토샵에 다루는 효과들이 있습니다.</span>
+                    </div>
+                    <div class="sec_cont">
+                        <a href="image/light01_s.jpg"class="filterbox box1">
+                            <div class="filter_title">blur</div>
+                            <img src="image/light01.jpg" alt="img1">
+                        </a>
+                        <a href="image/light02_s.jpg"class="filterbox box2">
+                            <div class="filter_title">brightness</div>
+                            <img src="image/light02.jpg" alt="img1">
+                        </a>
+                        <a href="image/light03_s.jpg"class="filterbox box3">
+                            <div class="filter_title">contrast</div>
+                            <img src="image/light03.jpg" alt="img1">
+                        </a>
+                        <a href="image/light04_s.jpg"class="filterbox box4">
+                            <div class="filter_title">grayscale</div>
+                            <img src="image/light04.jpg" alt="img1">
+                        </a>
+                        <a href="image/light05_s.jpg"class="filterbox box5">
+                            <div class="filter_title">hue-rotate</div>
+                            <img src="image/light05.jpg" alt="img1">
+                        </a>
+                        <a href="image/light06_s.jpg"class="filterbox box6">
+                            <div class="filter_title">invert</div>
+                            <img src="image/light06.jpg" alt="img1">
+                        </a>
+                        <a href="image/light07_s.jpg"class="filterbox box7">
+                            <div class="filter_title">opacity</div>
+                            <img src="image/light07.jpg" alt="img1">
+                        </a>
+                        <a href="image/light08_s.jpg"class="filterbox box8">
+                            <div class="filter_title">saturate</div>
+                            <img src="image/light08.jpg" alt="img1">
+                        </a>
+                        <a href="image/light08_s.jpg"class="filterbox box9">
+                            <div class="filter_title">sepia</div>
+                            <img src="image/light09.jpg" alt="img1">
+                        </a>
+                        <a href="image/light10_s.jpg"class="filterbox box10">
+                            <div class="filter_title">Mix</div>
+                            <img src="image/light10.jpg" alt="img1">
+                        </a>
+                    </div>
+                </section>
+                <section id="video" class="sec_wrap">
+                    <div class="sec_title">
+                        <h2 class="title">Video</h2>
+                        <span class="desc">영상을 보여주는 영역입니다.</span>
+                    </div>
+                    <figure>
+                        <iframe width="1020" height="574" src="https://www.youtube.com/embed/tHy498wdPaA?list=PL4UVBBIc6giKixok-bC7XVEx0ZFsngr5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </figure>
+                </section>
+            </div>
+            <section id="right_box">
+                <h2 class="ir">Mouse Hover Effects</h2>
+                <section id="effect1" class="sec_wrap top">
+                    <div class="sec_title">
+                        <h3 class="title">Effect1</h3>
+                        <span class="desc">CSS3의 transform을 이용한 마우스 오버효과입니다.</span>
+                    </div>
+                    <div class="pspt_box">
+                        <figure class="flip_card">
+                            <img src="image/side1.jpg" alt="side_img1" class="flip_front">
+                            <div class="flip_back"></div>
+                        </figure>
+                    </div>
+                </section>
+                <section id="effect2" class="sec_wrap">
+                    <div class="sec_title">
+                        <h3 class="title">Effect2</h3>
+                        <span class="desc">CSS3의 transform을 이용한 마우스 오버효과입니다.</span>
+                    </div>
+                    <div class="pspt_box">
+                        <div class="flip_card">
+                            <figure class="flip_front">
+                                <img src="image/side2.jpg" alt="side_img1">
+                                <figcaption>Hover Effect</figcaption>
+                            </figure>
+                            <figure class="flip_back">
+                                <img src="image/side4.jpg" alt="side_img1">
+                                <figcaption>Effect Hover</figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                </section>
+                <section id="effect3" class="sec_wrap">
+                    <div class="sec_title">
+                        <h3 class="title">Effect3</h3>
+                        <span class="desc">CSS3의 transform을 이용한 마우스 오버효과입니다.</span>
+                    </div>
+                    <figure>
+                        <figcaption><span>HOVER<br><strong>EFFECT</strong></span></figcaption>
+                        <div></div>
+                        <img src="image/side3.jpg" alt="side_img3">
+                    </figure>
+                </section>
+            </section>
+        </div>
+        <!-- /.wrap -->
+    </main>
+    <footer>
+        <h2 class="ir">Footer</h2>
+        <ul>
+            <li><a href="#">사이트 도움말</a></li>
+            <li><a href="#">사이트 이용약관</a></li>
+            <li><a href="#">사이트 운영원칙</a></li>
+            <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+            <li><a href="#">책임의 한계와 법적고지</a></li>
+            <li><a href="#">게시중단요청서비스</a></li>
+            <li><a href="#">고객샌터</a></li>
+        </ul>
+        <address>Copyright © <strong>webstoryboy</strong> All Rights Reserved.</address>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
